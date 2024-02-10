@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import { Link } from 'react-router-dom';
 import footer from '../utils/img/Frame 11 (1).svg';
 import features from '../utils/img/Frame 4.jpg';
 import info from '../utils/img/Frame 3 (3).svg';
@@ -97,14 +96,14 @@ function Home() {
     
 <div id="about" className='breakfast'>
                 <div className='container-fluid my-class1'>
-                <img src={about} className='img-fluid w-100' alt="features" />
+                <img src={about} className='img-fluid w-100' alt="" />
                 </div>
             </div>
 
             
             <div className='breakfast'>
                 <div className='container-fluid mb-5 my-class2'>
-                <img src={achievements} className='img-fluid w-100' alt="features" />
+                <img src={achievements} className='img-fluid w-100' alt="" />
                 </div>
             </div>
             
