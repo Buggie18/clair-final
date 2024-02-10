@@ -1,5 +1,5 @@
 import './App.css';
-import { Link, Routes, Route} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -32,14 +32,13 @@ function App() {
    
       <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      
       <img
             src="src/utils/img/header-img.jpg"
             alt=""
             style={{ width: '100%', height: 'auto' }} // Adjust width and height as needed
             className="img-fluid" // Bootstrap class for responsive images
           />
-      </div>
     </div>
     <Home />
   </div>
