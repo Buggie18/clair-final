@@ -29,22 +29,9 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-   
-      <div class="container">
-    <div class="row">
-      
-      <img
-            src="src/utils/img/header-img.jpg"
-            alt=""
-            style={{ width: '100%', height: 'auto' }} // Adjust width and height as needed
-            className="img-fluid" // Bootstrap class for responsive images
-          />
-    </div>
     <Home />
-  </div>
+</div>
      
-
-    </div>
   );
 }
 
