@@ -1,5 +1,5 @@
 import './App.css';
-import { Link, Routes, Route } from 'react-router-dom';
+import { Link, Routes, Route} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -23,23 +23,35 @@ function App() {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100'>
-              <Nav.Link href='/' className='active text-uppercase'>Home</Nav.Link>
-              <Nav.Link href='/menu' className='active text-uppercase'>Features</Nav.Link>
-              <Nav.Link href='/about' className='active text-uppercase'>About us</Nav.Link>
-              <Nav.Link href='/faq' className='active text-uppercase'>FAQs</Nav.Link>
-              <Nav.Link href='/contact' className='active text-uppercase'>Contact Us</Nav.Link>
+              <Nav.Link href='#home' className='active text-uppercase'>Home</Nav.Link>
+              <Nav.Link href='#features' className='active text-uppercase'>Features</Nav.Link>
+              <Nav.Link href='#about' className='active text-uppercase'>About us</Nav.Link>
+              <Nav.Link href='#accordionExample' className='active text-uppercase'>FAQs</Nav.Link>
+              <Nav.Link href='#contact' className='active text-uppercase'>Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+   
+      <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+      <img
+            src="src/utils/img/header-img.jpg"
+            alt="Your image"
+            style={{ width: '100%', height: 'auto' }} // Adjust width and height as needed
+            className="img-fluid" // Bootstrap class for responsive images
+          />
+      </div>
+    </div>
+  </div>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/menu' element={<Menu />} />
         <Route path='/about' element={<About />} />
         <Route path='/faq' element={<FAQ />} />
         <Route path='/contact' element={<Contact />} />
-      </Routes>
+  </Routes>
 
     </div>
   );

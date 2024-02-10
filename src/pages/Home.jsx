@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
 import footer from '../utils/img/Frame 11 (1).svg';
 import features from '../utils/img/Frame 4.jpg';
 import info from '../utils/img/Frame 3 (3).svg';
@@ -9,7 +10,7 @@ import sliderImage2 from '../utils/img/Appliance v9 1 (2) 1.svg';
 import sliderImage3 from '../utils/img/Appliance v9 2 (2) 1.svg';
 import sliderImage4 from '../utils/img/Frame 1.svg';
 import about from'../utils/img/Frame 8 (1).svg';
-import achievements from'../utils/img/Frame 10 (1).svg';
+import achievements from'../utils/img/Frame 10 (1).jpg';
 import explore from '../utils/img/Frame 12.svg';
 import faq from '../utils/img/Frequently Asked Questions (1).svg'
 
@@ -18,7 +19,7 @@ import faq from '../utils/img/Frequently Asked Questions (1).svg'
 function Home() {
     return (
         //hero section
-        <div className='home-page'>
+        <div id = "home" className='home-page'>
             <header className='h-100 min-vh-100 d-flex align-items-center text-light shadow'>
                 <div className='container'>
                     <div className='row'>
@@ -40,7 +41,7 @@ function Home() {
 
 
 
-            <div className='breakfast'>
+            <div id="features" className='breakfast'>
                 <div className='container-fluid'>
                 <img src={product} className='img-fluid w-100' alt="product" />
                 </div>
@@ -94,7 +95,7 @@ function Home() {
 </div>
     
     
-<div className='breakfast'>
+<div id="about" className='breakfast'>
                 <div className='container-fluid my-class1'>
                 <img src={about} className='img-fluid w-100' alt="features" />
                 </div>
@@ -175,7 +176,7 @@ function Home() {
 </div>
 
 
-<div className='breakfast'>
+<div id="contact" className='breakfast'>
                 <div className='container-fluid mb-5 my-class2'>
                 <img src={footer} className='img-fluid w-100' alt="footer" />
                 </div>
