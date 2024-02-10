@@ -8,7 +8,8 @@ header {
 }
 
 header h1 {
-    font-size: 5rem;
+    padding-left: 2rem;
+    font-size: 4rem;
 }
 
 .home-page header h1,
