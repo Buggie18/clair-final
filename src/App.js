@@ -23,7 +23,7 @@ function App() {
               <Nav.Link href='#home' className='active text-uppercase'>Home</Nav.Link>
               <Nav.Link href='#features' className='active text-uppercase'>Features</Nav.Link>
               <Nav.Link href='#about' className='active text-uppercase'>About us</Nav.Link>
-              <Nav.Link href='#accordionExample' className='active text-uppercase'>FAQs</Nav.Link>
+              <Nav.Link href='#faq' className='active text-uppercase'>FAQs</Nav.Link>
               <Nav.Link href='#contact' className='active text-uppercase'>Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>

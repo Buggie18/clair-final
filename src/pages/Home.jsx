@@ -107,7 +107,7 @@ function Home() {
                 </div>
             </div>
             
-            <div className='container-fluid d-flex justify-content-center'>
+            <div id= "faq" className='container-fluid d-flex justify-content-center'>
                 <img src={faq} className='img w-2' alt="faq" />
                 </div>     
                        
