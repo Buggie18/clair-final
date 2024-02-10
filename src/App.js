@@ -4,10 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home';
-import Menu from './pages/Menu';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import FAQ from './pages/Faq';
+
 
 function App() {
   return (
@@ -38,20 +35,15 @@ function App() {
       <div class="col-md-6">
       <img
             src="src/utils/img/header-img.jpg"
-            alt="Your image"
+            alt=""
             style={{ width: '100%', height: 'auto' }} // Adjust width and height as needed
             className="img-fluid" // Bootstrap class for responsive images
           />
       </div>
     </div>
+    <Home />
   </div>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/menu' element={<Menu />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/faq' element={<FAQ />} />
-        <Route path='/contact' element={<Contact />} />
-  </Routes>
+     
 
     </div>
   );
