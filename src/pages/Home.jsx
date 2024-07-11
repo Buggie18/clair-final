@@ -120,7 +120,7 @@ function Home() {
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      <strong><h6>VAAYU offers cost-effective air purification at 5900 INR, prioritizing accessibility for less privileged families.</h6></strong>
+      <strong><h6>VAAYU offers cost-effective air purification at 4999 INR, prioritizing accessibility for less privileged families.</h6></strong>
       </div>
     </div>
   </div>
